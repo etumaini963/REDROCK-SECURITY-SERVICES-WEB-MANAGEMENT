@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDROCK SECURITY SERVICES</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s linear 0.3s, opacity 0.3s;
+            box-shadow: 5px;
+        }
+        
+        .popup.active {
+            visibility: visible;
+            opacity: 1;
+            transition: visibility 0s linear, opacity 0.3s;
+        }
+        
+        .popup-content {
+            background-color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div class="homee" id="XHOME">
+            <div class="logo">
+                <img src="logo.png" alt=" REDROCK logo">
+            </div>
+            <div class="companyname">
+                <p>REDROCK
+                    <BR>SECURITY SERVICES LIMITED</BR>
+                </p>
+            </div>
+            <div class="top">
+                <ul class="menu" id="menu">
+                    <li class="dropbtn"><a href="HOME.HTML">Home</a></li>
+                    <li class="dropbtn"><a href="ABOUT US.HTML"> About</a>
+                        <div class="dropdown-content">
+                            <a href="#">Our Company</a>
+                            <a href="#">our team</a>
+                            <a href="#">our services</a>
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="SERVICES.HTML"> Services</a>
+                        <div class="dropdown-content">
+                            <a href="#">Security Services</a>
+                            <a href="#">Courier Services</a>
+                            <a href="#">Logistics</a>
+                            <a href="#">Security equipment</a>
+                            <a href="#">find more...</a>
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="CONTACT.HTML">Get.In.Touch</a>
+                        <div class="dropdown-content">
+                            <a href="#section2">CLIENT REQUEST</a>
+                            <a href="#section4"> JOBS AND CAREER</a>
+                            <a href="#section3">SOCIAL MEDIA AND PLATFORMS</a>
+                            <a href="#section1">CONTACT US</a>
+                            <a href="#section3">Link 1</a>
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="LOCATION.HTML"> Locations</a>
+                        <div class="dropdown-content">
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="BLOG.HTML"> Blog</a>
+                        <div class="dropdown-content">
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="log-in-part">
+                <button id="toggle-button">Menu</button>
+            </div>
+        </div>
+    </header>
+    <div class="parallax"></div>
+    <section class="banner">
+        <h1>Get in touch with us</h1>
+    </section>
+    <main>
+        <section class="servicess" id="section1">
+            <h2>CONTACT US</h2>
+            <div class="contact">
+                <p>"Thank you for your interest in REDROCK SECURITY SERVICES LIMITED. We're always happy to hear from our customers, and we're here to help you with any questions or concerns you may have. Here's how you can get in touch with us:</p>
+            </div>
+            <div class="contac">
+                <p> You can reach our customer support team by phone at 1-800-555-1234. We're available Monday through Friday, from 9:00 AM to 5:00 PM EST.</p>
+            </div>
+            <div class="contac">
+                <p> If you prefer to contact us by email, you can reach us at support@xyz.com. We strive to respond to all inquiries within 24 hours.</p>
+            </div>
+            <div class="contac">
+                <p> Our website features a live chat function, which allows you to connect with one of our customer support representatives in real-time. Simply click on the chat icon in the bottom right-hand corner of the screen to get started.</p>
+            </div>
+            <div class="contact">
+                <p>"Thank you for your interest in Slim Enterprise. We're always happy to hear from our customers, and we're here to help you with any questions or concerns you may have. Here's how you can get in touch with us:</p>
+            </div>
+        </section>
+        <section class="servicess" id="section2">
+            <h2>CLIENT REQUEST</h2>
+            <h2>Client Request Sign Up</h2>
+            This div is just <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
+
+        </section>
+
+        <section class="servicess" id="section3">
+            <h2>SOCIAL MEDIA AND PLATFORMS</h2>
+            <p>Description of Service 3</p>
+        </section>
+
+        <section class="servicess" id="section4">
+            <h2>JOBS AND CAREER</h2>
+            This div is just <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+            <div class="bodie">
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <div id="id02" class="modol">
+        <form class="modol-content" action="RED.PHP" method="POST">
+            <div class="containerr">
+                <div class="signup-top">
+                    <img src="logo.png" alt="Avatar" class="avatar">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="cloose" title="Close Modal">&times;</span>
+                </div>
+                <h1 style="color: blue;text-align: center;">Client Request <br> Sign Up</h1>
+                <p style="color: brown;">Please fill in this form to request the service you need from Redrock.</p>
+                <hr>
+                <form name="frmContact" method="post">
+                    <p>
+                        <label for="Name">Name </label>
+                        <input type="text" name="txtName" id="txtName">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" name="txtEmail" id="txtEmail">
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="txtPhone" id="txtPhone">
+                    </p>
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea name="txtMessage" id="txtMessage"></textarea>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <input type="submit" name="Submit" id="Submit" value="Submit">
+                    </p>
+                </form>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> <p>By submiting your details you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+               </label>
+                <div class="clearfix">
+                    <!-- <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button> -->
+                    <button type="button" class="cancelbtn" onclick="openPopup()">Open Popup</button>
+                    <button type="submit" class="signupbtn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2></h2>
+            <p>thanks for visiting this page,stay connected for more services</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="logo.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Enter your Name</b></label>
+                <input type="text" placeholder="Enter your Name" name="uname" required>
+
+                <label for="email"><b>Enter Your email</b></label>
+                <input type="email" placeholder="type here your official email" name="email" required>
+
+                <label for="pnumber"><b>Enter your Phone Number</b></label>
+                <input type="number" placeholder="Enter your Current Phone Number" name="pnumber" required>
+
+
+                <label for="file">Add your CV:</label>
+                <input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .txt" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Agree to terms and policies form Redrock Security team
+                  </label>
+                <button type="submit">Submit</button>
+
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>is a company committed to providing its customers with the most flexible solutions to meet the clients’ security, safety, courier and logistics needs involving a combination of products and services.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> OUTERING ROAD, MSS COURT (GF) NAIROBI.</li>
+                    <li><i class="fa-duotone fa-envelopes"></i> info@redrocksecurity.co.ke</li>
+                    <li><i class="fa-sharp fa-solid fa-phone-volume"></i> +124 13891325</li>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Security Services</li>
+                    <li><i class="fas fa-envelope"></i> Courier Services</li>
+                    <li> <a href="#"><i class="fas fa-envelope"></i>Logistics</a></li>
+                    <li> <a href="#"><i class="fas fa-envelope"></i>Security equipment</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3></h3>
+                <ul>
+                    <li>Alarm Installation and Response</li>
+                    <li>Manned Guarding Services</li>
+                    <li>Surveillance Solutions</li>
+                    <li>CCTV Systems</li>
+                    <li>Dog patrol/K-9/Sniffer Dogs</li>
+                    <li> Cash in Transit Services</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 REDROCK SECURITY SERVISES. All rights reserved.</p>
+
+
+            <script>
+                var toggleButton = document.getElementById('toggle-button');
+                var hiddenContent = document.getElementById('hidden-content');
+
+                toggleButton.addEventListener('click', function() {
+                    if (hiddenContent.style.display === 'none') {
+                        hiddenContent.style.display = 'block';
+                    } else {
+                        hiddenContent.style.display = 'none';
+                    }
+                });
+            </script>
+
+            <script>
+                // Get the modal
+                var modal = document.getElementById('id02');
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+            <script>
+                window.onscroll = function() {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("XHOME").style.top = "0";
+                    } else {
+                        document.getElementById("XHOME").style.top = "-90px";
+                    }
+                }
+            </script>
+
+
+
+            <script>
+                function openPopup() {
+                    var popup = document.getElementById('popup');
+                    popup.classList.add('active');
+                }
+
+                function closePopup() {
+                    var popup = document.getElementById('popup');
+                    popup.classList.remove('active');
+                }
+            </script>
+</body>
+
+</html>

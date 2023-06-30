@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDROCK SECURITY SERVICES</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial;
+            background: #928d8d;
+        }
+        /* Header/Blog Title */
+        /* Style the top navigation bar */
+        
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+        /* Right column */
+        
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #818080;
+            padding-left: 20px;
+        }
+        /* Fake image */
+        
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+        /* Add a card effect for articles */
+        
+        .card {
+            background-color: rgb(136, 132, 132);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        /* Clear floats after the columns */
+        
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Footer */
+        
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #969090;
+            margin-top: 20px;
+        }
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 800px) {
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+    <header>
+        <div class="homee" id="XHOME">
+            <div class="logo">
+                <img src="logo.png" alt=" REDROCK logo">
+            </div>
+            <div class="companyname">
+                <p>REDROCK
+                    <BR>SECURITY SERVICES LIMITED</BR>
+                </p>
+            </div>
+            <div class="top">
+                <ul class="menu" id="menu">
+                    <li class="dropbtn"><a href="HOME.HTML">Home</a></li>
+                    <li class="dropbtn"><a href="ABOUT US.HTML"> About</a>
+                        <div class="dropdown-content">
+                            <a href="#">Our Company</a>
+                            <a href="#">our team</a>
+                            <a href="#">our services</a>
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="SERVICES.HTML"> Services</a>
+                        <div class="dropdown-content">
+                            <a href="#SecurityServices">Security Services</a>
+                            <a href="#CourierServices">Courier Services</a>
+                            <a href="#section3">Logistics</a>
+                            <a href="#section4">Security equipment</a>
+                            <a href="#section1">find more...</a>
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="CONTACT.HTML">Get.In.Touch</a>
+                        <div class="dropdown-content">
+                            <a href="#">CLIENT REQUEST</a>
+                            <a href="#"> JOBS AND CAREER</a>
+                            <a href="#">SOCIAL MEDIA AND PLATFORMS</a>
+                            <a href="#">CONTACT US</a>
+                            <a href="#">Link 1</a>
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="LOCATION.HTML"> Locations</a>
+                        <div class="dropdown-content">
+                        </div>
+                    </li>
+                    <li class="dropbtn"><a href="BLOG.HTML"> Blog</a>
+                        <div class="dropdown-content">
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="log-in-part">
+                <button id="toggle-button">Menu</button>
+            </div>
+        </div>
+    </header>
+    <div class="parallax"></div>
+    <section class="banner">
+        <h1>Services & ProductsS</h1>
+    </section>
+
+
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2 id="#SecurityServices"> Security Services </h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg"><img src="images/19.jpg"></div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg"><img src="images/19.jpg"></div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg"><img src="images/19.jpg"></div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="card">
+                <h2 id="CourierServices"> Courier Services </h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Some text..</p>
+            </div>
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>logistics</h2>
+                <h5>Title description, Dec 7, 2017
+                </h5>
+                <div class="fakeimg"><img src="images/19.jpg"></div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Some text..</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Smooth scrolling when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+    <div class="bodie">
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>is a company committed to providing its customers with the most flexible solutions to meet the clients’ security, safety, courier and logistics needs involving a combination of products and services.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> OUTERING ROAD, MSS COURT (GF) NAIROBI.</li>
+                    <li><i class="fa-duotone fa-envelopes"></i> info@redrocksecurity.co.ke</li>
+                    <li><i class="fa-sharp fa-solid fa-phone-volume"></i> +124 13891325</li>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Security Services</li>
+                    <li><i class="fas fa-envelope"></i> Courier Services</li>
+                    <li> <a href="#"><i class="fas fa-envelope"></i>Logistics</a></li>
+                    <li> <a href="#"><i class="fas fa-envelope"></i>Security equipment</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3></h3>
+                <ul>
+                    <li>Alarm Installation and Response</li>
+                    <li>Manned Guarding Services</li>
+                    <li>Surveillance Solutions</li>
+                    <li>CCTV Systems</li>
+                    <li>Dog patrol/K-9/Sniffer Dogs</li>
+                    <li> Cash in Transit Services</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 REDROCK SECURITY SERVISES. All rights reserved.</p>
+
+
+
+
+
+
+            <script>
+                var toggleButton = document.getElementById('toggle-button');
+                var hiddenContent = document.getElementById('hidden-content');
+
+                toggleButton.addEventListener('click', function() {
+                    if (hiddenContent.style.display === 'none') {
+                        hiddenContent.style.display = 'block';
+                    } else {
+                        hiddenContent.style.display = 'none';
+                    }
+                });
+            </script>
+
+            <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+            <script>
+                window.onscroll = function() {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("XHOME").style.top = "0";
+                    } else {
+                        document.getElementById("XHOME").style.top = "-90px";
+                    }
+                }
+            </script>
+</body>
+
+</html>

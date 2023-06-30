@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDROCK SECURITY SERVICES</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="homee" id="XHOME">
+            <div class="logo"><img src="logo.png" alt=" REDROCK logo"></div>
+            <div class="companyname">
+                <p>REDROCK
+                    <BR>SECURITY SERVICES LIMITED</BR>
+                </p>
+            </div>
+            <div class="top">
+                <ul class="menu" id="menu">
+                    <li class="dropbtn"><a href="HOME.HTML">Home</a></li>
+                    <li class="dropbtn"><a href="ABOUT US.HTML">About</a>
+                        <div class="dropdown-content"><a href="#">Our Company</a><a href="#">our team</a><a href="#">our services</a></div>
+                    </li>
+                    <li class="dropbtn"><a href="SERVICES.HTML">Services</a>
+                        <div class="dropdown-content"><a href="#">Security Services</a><a href="#">Courier Services</a><a href="#">Logistics</a><a href="#">Security equipment</a><a href="#">find more...</a></div>
+                    </li>
+                    <li class="dropbtn"><a href="CONTACT.HTML">Get.In.Touch</a>
+                        <div class="dropdown-content"><a href="#">CLIENT REQUEST</a><a href="#">JOBS AND CAREER</a><a href="#">SOCIAL MEDIA AND PLATFORMS</a><a href="#">CONTACT US</a><a href="#">Link 1</a></div>
+                    </li>
+                    <li class="dropbtn"><a href="LOCATION.HTML">Locations</a>
+                        <div class="dropdown-content"></div>
+                    </li>
+                    <li class="dropbtn"><a href="BLOG.HTML">Blog</a>
+                        <div class="dropdown-content"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="log-in-part"><button id="toggle-button">Menu</button></div>
+        </div>
+    </header>
+    <div class="parallax"></div>
+    <main>
+        <section class="banner">
+            <h1>Location</h1>
+        </section>
+        <div id="map"></div>
+        <main class="map">
+            <p>Our office is located in the heart of Nairobi.</p>
+            <ul>
+                <p>OUTERING ROAD, MSS COURT (GF) NAIROBI.</p>
+                </p>bungoma, 6059
+                </p>
+                </p>KENYA</p>
+            </ul>
+            <p>For more information, please contact us at <a href="info@redrocksecurity.co.ke">info@redrocksecurity.co.ke</a>.</p><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387096.566059515!2d-74.25819222917113!3d40.70531130127607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c917c23cb6a5%3A0x3b3d02e5b5f80b0e!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1618342827651!5m2!1sen!2sca"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></main>
+        <script>
+            function initMap() {
+                // Nairobi coordinates
+                var nairobi = {
+                    lat: -1.286389,
+                    lng: 36.817223
+                };
+                // Create a map centered on Nairobi
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 12,
+                    center: nairobi
+                });
+                // Add a marker at Nairobi
+                var marker = new google.maps.Marker({
+                    position: nairobi,
+                    map: map,
+                    title: 'Nairobi'
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+        <div class="bodie"></div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>is a company committed to providing its customers with the most flexible solutions to meet the clients’ security, safety, courier and logistics needs involving a combination of products and services.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i>OUTERING ROAD, MSS COURT (GF) NAIROBI.</li>
+                        <li><i class="fa-duotone fa-envelopes"></i>info@redrocksecurity.co.ke</li>
+                        <li><i class="fa-sharp fa-solid fa-phone-volume"></i>+124 13891325</li><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-whatsapp"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-sharp fa-solid fa-thumbs-up"></i></ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Security Services</li>
+                        <li><i class="fas fa-envelope"></i>Courier Services</li>
+                        <li><a href="#"><i class="fas fa-envelope"></i>Logistics</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i>Security equipment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3></h3>
+                    <ul>
+                        <li>Alarm Installation and Response</li>
+                        <li>Manned Guarding Services</li>
+                        <li>Surveillance Solutions</li>
+                        <li>CCTV Systems</li>
+                        <li>Dog patrol/K-9/Sniffer Dogs</li>
+                        <li>Cash in Transit Services</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 REDROCK SECURITY SERVISES. All rights reserved.</p>
+                <script>
+                    var toggleButton = document.getElementById('toggle-button');
+                    var hiddenContent = document.getElementById('hidden-content');
+                    toggleButton.addEventListener('click', function() {
+                            if (hiddenContent.style.display === 'none') {
+                                hiddenContent.style.display = 'block';
+                            } else {
+                                hiddenContent.style.display = 'none';
+                            }
+                        }
+
+                    );
+                </script>
+                <script>
+                    window.onscroll = function() {
+                        scrollFunction()
+                    }
+
+                    ;
+
+                    function scrollFunction() {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            document.getElementById("XHOME").style.top = "0";
+                        } else {
+                            document.getElementById("XHOME").style.top = "-90px";
+                        }
+                    }
+                </script>
+</body>
+
+</html>
